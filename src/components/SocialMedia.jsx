@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const SocialMedia = () => {
   return (
-    <ul className="flex gap-4 mt-5">
+    <ul className="flex gap-4 mt-12">
         <li>
             <a href="https://twitter.com/Ziphozenkosi478" className="text-4xl">
                 <BsTwitterX />
