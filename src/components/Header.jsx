@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <nav className="bg-gray-800 fixed w-screen" style={navHight}>
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center relative mt-5">
+        <div className="container mx-auto px-4 py-2 flex justify-around items-center relative mt-5">
           <a href="#" className="text-white text-xl font-bold">
             Zipho Ncayiyana
           </a>
