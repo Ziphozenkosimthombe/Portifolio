@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.show-menu{
+    display: block;
+}
+
+.profile{
+    border-radius: 53% 47% 48% 52% / 30% 30% 70% 70% ;
+    transition: border-radius 500ms ease-out;
+    width: 22rem;
+    border:1px solid rgb(29, 28, 28);
+}
+
+.profile:hover{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+}
+
+.web-developer{
+    width: 16rem;
+}
