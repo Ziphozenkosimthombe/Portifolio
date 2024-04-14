@@ -6,11 +6,11 @@ const Experience = () => {
   return (
     <div className="mt-32 main" id='experience' ref={ref}>
         <h1 className="font-bold text-center text-3xl">Experience</h1>
-        <div className='flex justify-center gap-8 mt-10 '>
+        <div className='flex justify-center gap-8 mt-28'>
             <div className='div'>
                 <img src={Image} alt="web-developer" className='web-developer'/>
             </div>
-            < div className='div'>
+            < div className=''>
                 <h2>Software engineer</h2>
                 <span>Alx Africa</span>
                 <div className='flex items-center gap-1'>

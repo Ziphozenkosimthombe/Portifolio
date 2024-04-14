@@ -20,6 +20,36 @@
 .web-developer{
     width: 16rem;
 }
+.grade12{
+    width: 19rem;
+    padding-left: 5.5rem;
+}
+.grade8{
+    width: 18.2rem;
+    padding-left: 5.5rem;
+}
+.web{
+    width: 18rem;
+    padding-right: 4.5rem;
+}
+.alxse{
+    height: 10rem;
+}
+
+.skill1{
+    
+    background-image: linear-gradient(to right, rgb(84, 13, 214) 95%, transparent 95%);
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+
+
+
+
 
 .main{
     overflow: hidden;
@@ -27,6 +57,20 @@
 .main .div{
     Transition: all ease-in 1s;
 }
+
+/* .main .div:first-child {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+.main .div:last-child {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+.slide-in {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  } */
+
 
 .main .div:first-child {
     transform: translateX(-150%);

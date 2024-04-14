@@ -22,10 +22,12 @@ const useIntersectionObserver = () => {
       ref.current.querySelectorAll(".div").forEach((el) => {
         el.classList.add("slide-in");
       });
+      
     } else {
       ref.current.querySelectorAll(".div").forEach((el) => {
         el.classList.remove("slide-in");
       });
+      
     }
   }, [isIntersecting]);
 
