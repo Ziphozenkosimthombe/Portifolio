@@ -43,6 +43,18 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.skill2{
+    background-image: linear-gradient(to right, rgb(84, 13, 214) 55%, transparent 55%);
+}
+
+.skill3{
+    background-image: linear-gradient(to right, rgb(84, 13, 214) 80%, transparent 80%);
+}
+
+.skill4{
+    background-image: linear-gradient(to right, rgb(84, 13, 214) 40%, transparent 40%);
+
+}
 
 
 

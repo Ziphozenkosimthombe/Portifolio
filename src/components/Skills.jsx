@@ -11,7 +11,7 @@ const Skills = () => {
         <div className='container mx-auto flex justify-center mt-24 main' >
             <div>
                 <h2 className="font-bold text-2xl text-center">Professional Skills</h2>
-                <p className="">Computer Programmer | Skilled with Programming <br /> Languages | Full Stack Web and Android Application <br /> Developer</p>
+                <p className="mt-4">Computer Programmer | Skilled with Programming <br /> Languages | Back-End & Font-End Developer</p>
                 <div className='' >
                     <div className='skill1  border rounded h-12 font-extrabold flex justify-between mt-5 '>
                         <div className='mt-2'>
@@ -21,12 +21,12 @@ const Skills = () => {
                             <span className='m-2 '>95%</span>
                         </div>
                     </div>
-                    <div className=" mt-5 skill1 border rounded h-12 font-extrabold flex justify-between">
+                    <div className=" mt-5 skill1 skill2 border rounded h-12 font-extrabold flex justify-between">
                         <div className='mt-2  '>
                             <span className='m-2 font-extrabold text-black'>TypeScript</span>
                         </div>
                         <div className='mt-2'>
-                            <span className='m-2 '>95%</span>
+                            <span className='m-2 '>55%</span>
                         </div>
                     </div>
                     <div className='skill1  border rounded h-12 font-extrabold flex justify-between mt-5'>
@@ -45,36 +45,36 @@ const Skills = () => {
                             <span className='m-2 '>95%</span>
                         </div>
                     </div>
-                    <div className='skill1  border rounded h-12 font-extrabold flex justify-between mt-5'>
+                    <div className='skill1 skill3 border rounded h-12 font-extrabold flex justify-between mt-5'>
                         <div className='mt-2'>
                             <span className='m-2 font-extrabold text-black'>NodeJS</span>
                         </div>
                         <div className='mt-2'>
-                            <span className='m-2 '>95%</span>
+                            <span className='m-2 '>80%</span>
                         </div>
                     </div>
-                    <div className='skill1  border rounded h-12 font-extrabold flex justify-between mt-5'>
+                    <div className='skill1 skill4 border rounded h-12 font-extrabold flex justify-between mt-5'>
                         <div className='mt-2'>
                             <span className='m-2 font-extrabold text-black'>ASP.NET</span>
                         </div>
                         <div className='mt-2'>
-                            <span className='m-2 '>95%</span>
+                            <span className='m-2 '>40%</span>
                         </div>
                     </div>
-                    <div className=' skill1  border rounded h-12 font-extrabold flex justify-between mt-5'>
+                    <div className=' skill1 skill2 border rounded h-12 font-extrabold flex justify-between mt-5'>
                         <div className='mt-2'>
                             <span className='m-2 font-extrabold text-black'>ReactJS</span>
                         </div>
                         <div className='mt-2'>
-                            <span className='m-2 '>95%</span>
+                            <span className='m-2 '>55%</span>
                         </div>
                     </div>
-                    <div className=' skill1  border rounded h-12 font-extrabold flex justify-between mt-5'>
+                    <div className=' skill1 skill3 border rounded h-12 font-extrabold flex justify-between mt-5'>
                         <div className='mt-2'>
                             <span className='m-2 font-extrabold text-black'>ExpressJS</span>
                         </div>
                         <div className='mt-2'>
-                            <span className='m-2 '>95%</span>
+                            <span className='m-2 '>80%</span>
                         </div>
                     </div>
                 </div>                                                                                                                     

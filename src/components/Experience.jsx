@@ -11,8 +11,8 @@ const Experience = () => {
                 <img src={Image} alt="web-developer" className='web-developer'/>
             </div>
             < div className=''>
-                <h2>Software engineer</h2>
-                <span>Alx Africa</span>
+                <h2 className='font-extrabold text-black text-xl '>Software engineer</h2>
+                <span className='text-bold'>Alx Africa</span>
                 <div className='flex items-center gap-1'>
                   <SlCalender />
                   <span> January 2023 current </span>
