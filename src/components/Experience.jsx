@@ -1,14 +1,16 @@
 import Image from '../assets/web-developer.png'
 import { SlCalender } from "react-icons/sl";
+import useIntersectionObserver from '../utils/UseIntersection';
 const Experience = () => {
+  const ref = useIntersectionObserver();
   return (
-    <div className="mt-32" id='experience'>
+    <div className="mt-32 main" id='experience' ref={ref}>
         <h1 className="font-bold text-center text-3xl">Experience</h1>
-        <div className='flex justify-center gap-8 mt-10'>
-            <div>
+        <div className='flex justify-center gap-8 mt-10 '>
+            <div className='div'>
                 <img src={Image} alt="web-developer" className='web-developer'/>
             </div>
-            < div className=''>
+            < div className='div'>
                 <h2>Software engineer</h2>
                 <span>Alx Africa</span>
                 <div className='flex items-center gap-1'>
