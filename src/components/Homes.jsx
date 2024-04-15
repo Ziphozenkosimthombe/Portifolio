@@ -4,6 +4,7 @@ import Home from "./Home"
 import Experience from "./Experience"
 import Education from "./Education"
 import Skills from "./Skills"
+import Projects from "./Projects"
 const Homes = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Homes = () => {
         <Experience/>
         <Education/>
         <Skills/>
+        <Projects/>
         <Footer/>
       </div>
     </>
