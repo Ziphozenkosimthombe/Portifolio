@@ -51,7 +51,7 @@ const Education = () => {
             </div>
         </div>
 
-        <div className='flex justify-center gap-8 mt-10 '>
+        <div className='flex justify-center gap-8 mt-10 ml-10'>
             <div className='div'>
                 <img src={Image4} alt="alxse" className='grade8'/>
             </div>

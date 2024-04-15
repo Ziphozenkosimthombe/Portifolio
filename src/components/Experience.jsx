@@ -10,7 +10,7 @@ const Experience = () => {
             <div className='div'>
                 <img src={Image} alt="web-developer" className='web-developer'/>
             </div>
-            < div className=''>
+            < div className='content-center'>
                 <h2 className='font-extrabold text-black text-xl '>Software engineer</h2>
                 <span className='text-bold'>Alx Africa</span>
                 <div className='flex items-center gap-1'>
