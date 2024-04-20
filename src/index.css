@@ -79,19 +79,6 @@
     Transition: all ease-in 1s;
 }
 
-/* .main .div:first-child {
-    transform: translateX(-150%);
-    opacity: 0;
-  }
-.main .div:last-child {
-    transform: translateX(150%);
-    opacity: 0;
-  }
-.slide-in {
-    transform: translateX(0) !important;
-    opacity: 1 !important;
-  } */
-
 
 .main .div:first-child {
     transform: translateX(-150%);
@@ -105,3 +92,28 @@
     transform: translateX(0) !important;
     opacity: 1 !important;
   }
+
+
+
+
+
+/* ==========================================
+            Responsive Design                
+============================================= */   
+
+
+@media (max-width: 640px) {
+    .education1 {
+        /*margin-left: 8rem 128px */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 640px){
+    .responsive-640{
+        margin-top: 5rem;
+    }
+}

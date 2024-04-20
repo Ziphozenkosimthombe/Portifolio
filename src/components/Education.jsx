@@ -9,8 +9,8 @@ const Education = () => {
   return (
     <div className=" mt-32 main " id="education" ref={ref}>
         <h1 className="font-bold text-center text-3xl">Education</h1>
-        <div className='flex justify-around mt-20 '>
-            <div className='max-w-sm rounded overflow-hidden shadow-lg div'>
+        <div className='flex justify-around mt-20  education1'>
+            <div className='max-w-sm rounded overflow-hidden shadow-lg div '>
                 <img src={Image2} alt="alxse" className='w-full'/>
                 < div className='px-6 py-4 pt-8'>
                     <h2 className='font-extrabold'>Software engineer</h2>
@@ -35,7 +35,7 @@ const Education = () => {
         </div>
             
 
-        <div className='flex justify-around mt-20'>
+        <div className='flex justify-around mt-20 education1'>
             <div className='max-w-sm rounded overflow-hidden shadow-lg div'>
                 <img src={Image3} alt="alxse" className='w-full'/>
                 < div className='px-6 py-4 pt-8'>
