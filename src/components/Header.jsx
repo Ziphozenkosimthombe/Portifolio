@@ -31,19 +31,19 @@ const Header = () => {
         <div className="md:hidden bg-gray-800 w-48 fixed top-16 right-0 h-full pt-16">
           <ul className="text-white ">
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-gray-400">Home</a>
+              <a href="#home" className="block px-4 py-2 hover:text-gray-400">Home</a>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-gray-400">Experience</a>
+              <a href="#experience" className="block px-4 py-2 hover:text-gray-400">Experience</a>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-gray-400">Education</a>
+              <a href="#education" className="block px-4 py-2 hover:text-gray-400">Education</a>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-gray-400">Skills</a>
+              <a href="#skills" className="block px-4 py-2 hover:text-gray-400">Skills</a>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-gray-400">Projects</a>
+              <a href="#projects" className="block px-4 py-2 hover:text-gray-400">Projects</a>
             </li>
           </ul>
         </div>
