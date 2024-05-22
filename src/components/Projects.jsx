@@ -6,7 +6,7 @@ const Projects = () => {
   const ref = useIntersectionObserver();
   return (
     <div className=" mt-32 main " id="education" ref={ref}>
-        <h1 className="font-bold text-center text-3xl">Education</h1>
+        <h1 className="font-bold text-center text-3xl">Projects</h1>
         <div className='flex justify-around mt-20 education1'>
             <div className='max-w-sm rounded overflow-hidden shadow-lg div '>
                 <img src={Image} alt="alxse" className='w-full'/>
