@@ -18,15 +18,12 @@ const Header = () => {
           <a href="#" className="text-white text-xl font-bold">
             Zipho Ncayiyana
           </a>
-          {/* Menu button for small screens */}
           <MenuButton menuOpen={menuOpen} toggleMenu={toggleMenu} />
-          {/* Menu rendered inside the nav tag for larger screens */}
           <NavigationLinks />
           
         </div>
          
       </nav>
-      {/* Sidebar rendered for small screens */}
       {menuOpen && (
         <div className="md:hidden bg-gray-800 w-48 fixed top-16 right-0 h-full pt-16">
           <ul className="text-white ">
