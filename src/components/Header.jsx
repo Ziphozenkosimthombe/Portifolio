@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import MenuButton from "./MenuButton";
 import NavigationLinks from "./NavigationLinks";
 
@@ -20,9 +20,9 @@ const Header = () => {
           </a>
           <MenuButton menuOpen={menuOpen} toggleMenu={toggleMenu} />
           <NavigationLinks />
-          
+
         </div>
-         
+
       </nav>
       {menuOpen && (
         <div className="md:hidden bg-gray-800 w-48 fixed top-16 right-0 h-full pt-16">
@@ -42,10 +42,13 @@ const Header = () => {
             <li>
               <a href="#projects" className="block px-4 py-2 hover:text-gray-400">Projects</a>
             </li>
+            <li>
+              <a href="#achivement" className="block px-4 py-2 hover:text-gray-400">Achivement</a>
+            </li>
           </ul>
         </div>
       )}
-      
+
     </>
   );
 };
