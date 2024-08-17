@@ -5,17 +5,19 @@ import Experience from "./Experience"
 import Education from "./Education"
 import Skills from "./Skills"
 import Projects from "./Projects"
+import Achivements from "./Achivements"
 const Homes = () => {
   return (
     <>
       <div className="">
-        <Header/>
-        <Home/>
-        <Experience/>
-        <Education/>
-        <Skills/>
-        <Projects/>
-        <Footer/>
+        <Header />
+        <Home />
+        <Experience />
+        <Education />
+        <Skills />
+        <Projects />
+        <Achivements />
+        <Footer />
       </div>
     </>
   )
