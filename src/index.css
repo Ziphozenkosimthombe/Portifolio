@@ -75,7 +75,7 @@
 .main{
     overflow: hidden;
 }
-.main .div{
+/*.main .div{
     Transition: all ease-in 1s;
 }
 
@@ -91,9 +91,9 @@
 .slide-in {
     transform: translateX(0) !important;
     opacity: 1 !important;
-  }
+ }
 
-
+*/
 
 
 
